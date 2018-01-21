@@ -6,7 +6,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace HWUnitTest
 {
     /// <summary>
-    /// Unit Tests for Hellow World API calls
+    /// Unit Tests for Hello World API calls
     /// </summary>
     [TestClass]
     public class UnitTest

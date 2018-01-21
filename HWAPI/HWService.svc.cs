@@ -12,7 +12,7 @@ namespace HWAPI
      public class HWService : IHWService
     {
         /// <summary>
-        /// Retrieves the Hello World messae
+        /// Retrieves the Hello World message
         /// </summary>
         /// <returns>string of Hello World message</returns>
         public string GetMessage()

@@ -17,7 +17,7 @@ namespace HWApp
             MessageBox.Show(hw.GetHWMessage());
         }
 
-        // Retrun the Hello World message string
+        // Return the Hello World message string
         public string GetHWMessage()
         {
             return "Hello World";
@@ -26,7 +26,7 @@ namespace HWApp
         // Update a database
         public Boolean HWDBUpdate()
         {
-            // Get DB connection string
+            // Get DB connection string from app config
             string DBConn = System.Configuration.ConfigurationManager.AppSettings["DBConn"];
             // logic to update DB here - return true if successful, false otherwise
             return true;
